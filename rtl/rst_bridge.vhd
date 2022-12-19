@@ -8,7 +8,7 @@
 --!     remove the reset synchronously.
 --!
 --!     The reset de-asserted is delayed until safely after clock edge using
---!     2-stage synchronous flip-flops.
+--!     2-stage synchronous flip-flops. The reset is active-high.
 --!
 --! Reference:
 --!     http://www.sunburst-design.com/papers/CummingsSNUG2002SJ_Resets.pdf
